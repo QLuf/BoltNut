@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Wall
+  - Key
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Bolt
+  - BarHole
+  - BoardHole
+  - Bar1
+  - Bar2
+  - Bar3
+  - Bar4
+  - Bar5
+  - Bar6
+  - Bar7
+  - VFX
+  - Bar8
+  - wall
+  - Bar9
+  - Bar10
+  - Ring
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Bar
+    uniqueID: 2011905915
+    locked: 0
+  - name: Screw
+    uniqueID: 3973019865
+    locked: 0
+  - name: Bug
+    uniqueID: 3281994891
+    locked: 0
+  - name: Hand
+    uniqueID: 3910537917
+    locked: 0

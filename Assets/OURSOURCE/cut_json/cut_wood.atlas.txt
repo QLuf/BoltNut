@@ -1,0 +1,16 @@
+cut_wood.png
+size:109,465
+filter:Linear,Linear
+pma:true
+cut_01
+bounds:2,224,51,239
+offsets:7,0,58,239
+cut_02
+bounds:60,21,44,216
+offsets:10,13,58,239
+cut_03
+bounds:55,239,52,224
+offsets:3,14,58,239
+cut_04
+bounds:2,2,56,220
+offsets:0,13,58,239

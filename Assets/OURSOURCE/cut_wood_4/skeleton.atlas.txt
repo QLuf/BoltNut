@@ -1,0 +1,184 @@
+skeleton.png
+size:2025,2005
+filter:Linear,Linear
+pma:true
+Wood Break_00000
+bounds:8,1890,517,113
+offsets:482,359,1500,843
+Wood Break_00001
+bounds:527,1835,626,168
+offsets:430,336,1500,843
+Wood Break_00002
+bounds:1155,1789,683,214
+offsets:403,317,1500,843
+Wood Break_00003
+bounds:2,1359,754,254
+offsets:369,298,1500,843
+Wood Break_00004
+bounds:1732,971,816,291
+offsets:339,270,1500,843
+rotate:90
+Wood Break_00005
+bounds:2,427,873,319
+offsets:312,243,1500,843
+Wood Break_00037
+bounds:2,2,1134,339
+offsets:183,0,1500,843
+Wood Break_00038
+bounds:877,343,1124,323
+offsets:187,0,1500,843
+Wood Break_00039
+bounds:883,668,887,301
+offsets:420,6,1500,843
+Wood Break_00040
+bounds:2,748,879,291
+offsets:424,0,1500,843
+Wood Break_00041
+bounds:862,1041,868,275
+offsets:429,0,1500,843
+Wood Break_00042
+bounds:2,1073,858,243
+offsets:432,17,1500,843
+Wood Break_00043
+bounds:758,1318,774,241
+offsets:440,3,1500,843
+Wood Break_00044
+bounds:764,1561,768,226
+offsets:444,2,1500,843
+Wood Break_00045
+bounds:2,1615,760,218
+offsets:450,0,1500,843
+Wood Break_00056
+bounds:2,2001,4,2
+offsets:891,1,1500,843
+
+skeleton_2.png
+size:1780,1728
+filter:Linear,Linear
+pma:true
+Wood Break_00020
+bounds:2,689,1200,522
+offsets:214,0,1500,843
+Wood Break_00021
+bounds:1260,494,1232,518
+offsets:197,0,1500,843
+rotate:90
+Wood Break_00022
+bounds:2,1213,1256,513
+offsets:183,0,1500,843
+Wood Break_00024
+bounds:2,2,1301,490
+offsets:150,3,1500,843
+
+skeleton_3.png
+size:1802,1809
+filter:Linear,Linear
+pma:true
+Wood Break_00023
+bounds:2,840,1277,484
+offsets:173,21,1500,843
+Wood Break_00025
+bounds:2,1326,1322,481
+offsets:132,0,1500,843
+Wood Break_00026
+bounds:1326,470,1337,474
+offsets:117,0,1500,843
+rotate:90
+Wood Break_00027
+bounds:2,2,1346,466
+offsets:112,0,1500,843
+Wood Break_00035
+bounds:2,474,1304,364
+offsets:99,6,1500,843
+
+skeleton_4.png
+size:1770,1778
+filter:Linear,Linear
+pma:true
+Wood Break_00028
+bounds:2,1319,1348,457
+offsets:106,0,1500,843
+Wood Break_00029
+bounds:2,869,1348,448
+offsets:106,0,1500,843
+Wood Break_00030
+bounds:2,430,1349,437
+offsets:102,0,1500,843
+Wood Break_00031
+bounds:2,2,1344,426
+offsets:99,0,1500,843
+Wood Break_00032
+bounds:1353,440,1336,415
+offsets:99,0,1500,843
+rotate:90
+
+skeleton_5.png
+size:1844,2045
+filter:Linear,Linear
+pma:true
+Wood Break_00006
+bounds:1171,2,911,342
+offsets:294,215,1500,843
+rotate:90
+Wood Break_00016
+bounds:1334,915,1128,508
+offsets:240,0,1500,843
+rotate:90
+Wood Break_00018
+bounds:2,235,1149,514
+offsets:242,0,1500,843
+Wood Break_00019
+bounds:2,751,1167,510
+offsets:234,10,1500,843
+Wood Break_00033
+bounds:2,1651,1330,392
+offsets:95,8,1500,843
+Wood Break_00034
+bounds:2,1263,1321,386
+offsets:96,0,1500,843
+
+skeleton_6.png
+size:1784,1859
+filter:Linear,Linear
+pma:true
+Wood Break_00013
+bounds:1296,749,1108,486
+offsets:237,27,1500,843
+rotate:90
+Wood Break_00014
+bounds:2,507,1118,502
+offsets:237,3,1500,843
+Wood Break_00015
+bounds:2,2,1115,503
+offsets:240,0,1500,843
+Wood Break_00017
+bounds:2,1011,1134,489
+offsets:247,20,1500,843
+Wood Break_00036
+bounds:2,1502,1292,355
+offsets:99,0,1500,843
+
+skeleton_7.png
+size:2013,1399
+filter:Linear,Linear
+pma:true
+Wood Break_00007
+bounds:1063,2,948,365
+offsets:276,186,1500,843
+Wood Break_00008
+bounds:1495,402,995,381
+offsets:262,160,1500,843
+rotate:90
+Wood Break_00009
+bounds:1100,369,1028,393
+offsets:253,131,1500,843
+rotate:90
+Wood Break_00010
+bounds:2,66,1059,416
+offsets:247,104,1500,843
+Wood Break_00011
+bounds:2,484,1084,445
+offsets:240,77,1500,843
+Wood Break_00012
+bounds:2,931,1096,466
+offsets:240,52,1500,843

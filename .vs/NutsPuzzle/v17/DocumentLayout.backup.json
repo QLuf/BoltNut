@@ -1,0 +1,104 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Outsource_PlayableAds\\SuperGame\\2\\NutsPuzzle\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{53489054-4B65-F136-2202-C53D8983A073}|Assembly-CSharp.csproj|D:\\Outsource_PlayableAds\\SuperGame\\2\\NutsPuzzle\\assets\\scripts\\levelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53489054-4B65-F136-2202-C53D8983A073}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\levelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53489054-4B65-F136-2202-C53D8983A073}|Assembly-CSharp.csproj|D:\\Outsource_PlayableAds\\SuperGame\\2\\NutsPuzzle\\assets\\scripts\\manager\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53489054-4B65-F136-2202-C53D8983A073}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\manager\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53489054-4B65-F136-2202-C53D8983A073}|Assembly-CSharp.csproj|D:\\Outsource_PlayableAds\\SuperGame\\2\\NutsPuzzle\\assets\\scripts\\store.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53489054-4B65-F136-2202-C53D8983A073}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\store.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53489054-4B65-F136-2202-C53D8983A073}|Assembly-CSharp.csproj|d:\\outsource_playableads\\supergame\\2\\nutspuzzle\\assets\\scripts\\tools\\cameradistanceconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53489054-4B65-F136-2202-C53D8983A073}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\tools\\cameradistanceconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53489054-4B65-F136-2202-C53D8983A073}|Assembly-CSharp.csproj|D:\\Outsource_PlayableAds\\SuperGame\\2\\NutsPuzzle\\assets\\scripts\\saw.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53489054-4B65-F136-2202-C53D8983A073}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\saw.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CameraDistanceConfig.cs",
+              "DocumentMoniker": "D:\\Outsource_PlayableAds\\SuperGame\\2\\NutsPuzzle\\Assets\\Scripts\\Tools\\CameraDistanceConfig.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Tools\\CameraDistanceConfig.cs",
+              "ToolTip": "D:\\Outsource_PlayableAds\\SuperGame\\2\\NutsPuzzle\\Assets\\Scripts\\Tools\\CameraDistanceConfig.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Tools\\CameraDistanceConfig.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwBQAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T16:11:07.701Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LevelController.cs",
+              "DocumentMoniker": "D:\\Outsource_PlayableAds\\SuperGame\\2\\NutsPuzzle\\Assets\\Scripts\\LevelController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\LevelController.cs",
+              "ToolTip": "D:\\Outsource_PlayableAds\\SuperGame\\2\\NutsPuzzle\\Assets\\Scripts\\LevelController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\LevelController.cs",
+              "ViewState": "AgIAAPEAAAAAAAAAAAAUwP8AAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T15:54:27.696Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "D:\\Outsource_PlayableAds\\SuperGame\\2\\NutsPuzzle\\Assets\\Scripts\\Manager\\GameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Manager\\GameManager.cs",
+              "ToolTip": "D:\\Outsource_PlayableAds\\SuperGame\\2\\NutsPuzzle\\Assets\\Scripts\\Manager\\GameManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Manager\\GameManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAG4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T15:54:01.789Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "store.cs",
+              "DocumentMoniker": "D:\\Outsource_PlayableAds\\SuperGame\\2\\NutsPuzzle\\Assets\\Scripts\\store.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\store.cs",
+              "ToolTip": "D:\\Outsource_PlayableAds\\SuperGame\\2\\NutsPuzzle\\Assets\\Scripts\\store.cs",
+              "RelativeToolTip": "Assets\\Scripts\\store.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T13:35:51.969Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Saw.cs",
+              "DocumentMoniker": "D:\\Outsource_PlayableAds\\SuperGame\\2\\NutsPuzzle\\Assets\\Scripts\\Saw.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Saw.cs",
+              "ToolTip": "D:\\Outsource_PlayableAds\\SuperGame\\2\\NutsPuzzle\\Assets\\Scripts\\Saw.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Saw.cs",
+              "ViewState": "AgIAABQAAAAAMTMzM7MQwA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T10:18:28.289Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
