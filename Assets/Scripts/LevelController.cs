@@ -95,6 +95,10 @@ public class LevelController : MonoBehaviour
     public void ScrewBar()
     {
         amountBarScrewed++;
+        if (amountBarScrewed == 20)
+        {
+            NotificationCenter.Instance.Post(EventType.EventCount20);
+        }
         if (amountBarScrewed == target)
         {
             confetti.Play();
@@ -183,7 +187,7 @@ public class LevelController : MonoBehaviour
             {
                 Vector2 worldPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
 
-                GameObject vfxClick = GameManager.Instance.InstantiatePrefab("VFX/VFX_Click");
+                GameObject vfxClick = GameManager.Instance.InstantiatePrefab("VFX/VFX_Tap");
                 vfxClick.transform.position = new Vector3(worldPos.x, worldPos.y, -5);
 
                 Collider2D collider2D = Physics2D.OverlapCircle(worldPos, 0.5f, GameManager.Instance.layerBoardHole);
