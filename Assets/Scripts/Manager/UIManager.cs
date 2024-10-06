@@ -1,11 +1,14 @@
 using System;
+using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class UIManager : MonoBehaviour
 {
-    [SerializeField] private AnimatedButton storeButton;
+    [SerializeField] private AnimatedButton store20Button;
+    [SerializeField] private AnimatedButton store25Button;
     [SerializeField] private Button storePanel;
+    [SerializeField] private CanvasGroup canvasGroup;
 
     private void Awake()
     {
@@ -15,7 +18,13 @@ public class UIManager : MonoBehaviour
 
         OnHideButton();
     }
-    
+
+    private IEnumerator Start()
+    {
+        yield return new WaitForSeconds(1.6f);
+        canvasGroup.alpha = 1f;
+    }
+
     private void OnDestroy()
     {
         NotificationCenter.Instance.Remove(EventType.EventCount20, OnEvent20Handle);
@@ -25,18 +34,19 @@ public class UIManager : MonoBehaviour
     
     private void OnEvent20Handle()
     {
-        storeButton.gameObject.SetActive(true);
+        store20Button.gameObject.SetActive(true);
     }
 
     private void OnHideButton()
     {
-        storeButton.gameObject.SetActive(false);
+        store20Button.gameObject.SetActive(false);
+        store25Button.gameObject.SetActive(false);
         storePanel.gameObject.SetActive(false);
     }
     
     private void OnEvent25Handle()
     {
-        storeButton.gameObject.SetActive(true);
+        store25Button.gameObject.SetActive(true);
         storePanel.gameObject.SetActive(true);
     }
 

@@ -5,8 +5,9 @@ using UnityEngine;
 public class UIFollowObject : MonoBehaviour
 {
     public GameObject target;
+    public Vector3 offset;
     private void Update()
     {
-        transform.position = Camera.main.WorldToScreenPoint(target.transform.position);
+        transform.position = Camera.main.WorldToScreenPoint(target.transform.position + offset);
     }
 }
