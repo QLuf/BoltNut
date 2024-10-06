@@ -59,7 +59,6 @@ public class Bolt : MonoBehaviour
         isScrewed = true;
         Vibration.Vibrate(50);
         hand1.SetActive(false);
-
         if (!this.isFallingScrew)
         {
             hand2.SetActive(true);
@@ -67,6 +66,7 @@ public class Bolt : MonoBehaviour
         //meshRenderer.sortingOrder = 1;
         oldspr.enabled = false;
         newspr.enabled = true;
+        GameManager.Instance.CountUpScrew();
         /*anim.AnimationState.SetAnimation(0, "bolt_screw_out", false);
         anim.AnimationState.AddAnimation(0, "bolt_screw_idle", true, 0);*/
         // graphicTF.DOLocalMove(new Vector3(0, 1, -2), 0.25f).SetEase(Ease.Linear);

@@ -27,11 +27,14 @@ public class GameManager : Singleton<GameManager>
     public float startTime;
     [HideInInspector] public int count = 0;
 
+    private int screwCount = 0;
+
    
     private void Start()
     {
         /*SoundManager.InitInstance(transform);*/
         canControl = true;
+        screwCount = 0;
     }
 
     /*public GameObject LoadLevel()
@@ -100,6 +103,23 @@ public class GameManager : Singleton<GameManager>
             return gameObject2;
         }
         return gameObject;
+    }
+
+    public void CountUpScrew()
+    {
+        screwCount++;
+        switch (screwCount)
+        {
+            case 20:
+                NotificationCenter.Instance.Post(EventType.EventCount20);
+                break;
+            case 21:
+                NotificationCenter.Instance.Post(EventType.EventCount21);
+                break;
+            case 25:
+                NotificationCenter.Instance.Post(EventType.EventCount25);
+                break;
+        }
     }
 }
 

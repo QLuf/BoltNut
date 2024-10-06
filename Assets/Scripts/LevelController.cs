@@ -95,10 +95,6 @@ public class LevelController : MonoBehaviour
     public void ScrewBar()
     {
         amountBarScrewed++;
-        if (amountBarScrewed == 20)
-        {
-            NotificationCenter.Instance.Post(EventType.EventCount20);
-        }
         if (amountBarScrewed == target)
         {
             confetti.Play();
