@@ -66,6 +66,7 @@ public class Bolt : MonoBehaviour
         //meshRenderer.sortingOrder = 1;
         oldspr.enabled = false;
         newspr.enabled = true;
+        newspr.transform.localScale *= 2;
         GameManager.Instance.CountUpScrew();
         /*anim.AnimationState.SetAnimation(0, "bolt_screw_out", false);
         anim.AnimationState.AddAnimation(0, "bolt_screw_idle", true, 0);*/

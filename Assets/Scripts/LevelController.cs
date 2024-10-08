@@ -158,6 +158,7 @@ public class LevelController : MonoBehaviour
                 }
             }
         }
+        Debug.Log("Go to store!!!!");
          Luna.Unity.LifeCycle.GameEnded();
         Luna.Unity.Playable.InstallFullGame();
          Luna.Unity.Analytics.LogEvent("Store", 0);
@@ -255,13 +256,13 @@ public class LevelController : MonoBehaviour
                                 temps[i].GetComponent<Bar>().RemoveBolt(currentBolt);
                             }
                             countToOpenStore++;
-                            if (countToOpenStore == 15)
-                            {
-                                Luna.Unity.LifeCycle.GameEnded();
-                                Luna.Unity.Playable.InstallFullGame();
-                                Luna.Unity.Analytics.LogEvent("Store", 0);
-                                store.SetActive(true);
-                            }
+                            // if (countToOpenStore == 15)
+                            // {
+                            //     Luna.Unity.LifeCycle.GameEnded();
+                            //     Luna.Unity.Playable.InstallFullGame();
+                            //     Luna.Unity.Analytics.LogEvent("Store", 0);
+                            //     store.SetActive(true);
+                            // }
                             currentBolt.MoveTo(null);
                             currentBolt = null;
 

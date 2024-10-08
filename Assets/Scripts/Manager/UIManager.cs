@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class UIManager : MonoBehaviour
 {
     [SerializeField] private AnimatedButton store20Button;
+    [SerializeField] private GameObject store25Object;
     [SerializeField] private AnimatedButton store25Button;
     [SerializeField] private Button storePanel;
     [SerializeField] private CanvasGroup canvasGroup;
@@ -40,18 +41,19 @@ public class UIManager : MonoBehaviour
     private void OnHideButton()
     {
         store20Button.gameObject.SetActive(false);
-        store25Button.gameObject.SetActive(false);
+        store25Object.gameObject.SetActive(false);
         storePanel.gameObject.SetActive(false);
     }
     
     private void OnEvent25Handle()
     {
-        store25Button.gameObject.SetActive(true);
+        store25Object.gameObject.SetActive(true);
         storePanel.gameObject.SetActive(true);
     }
 
     public void GoToStore()
     {
+        Debug.Log("Go to store!!!!");
         Luna.Unity.LifeCycle.GameEnded();
         Luna.Unity.Playable.InstallFullGame();
         Luna.Unity.Analytics.LogEvent("Store", 0);
