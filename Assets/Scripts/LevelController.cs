@@ -213,6 +213,10 @@ public class LevelController : MonoBehaviour
                     if (collider2D != null)
                     {
                         Bolt bolt = collider2D.GetComponent<Bolt>();
+                        if(bolt == null)
+                        {
+                            return;
+                        }
                         select.Play();
                         if (currentBolt == null)
                         {
@@ -251,7 +255,7 @@ public class LevelController : MonoBehaviour
                                 temps[i].GetComponent<Bar>().RemoveBolt(currentBolt);
                             }
                             countToOpenStore++;
-                            if (countToOpenStore == 12)
+                            if (countToOpenStore == 15)
                             {
                                 Luna.Unity.LifeCycle.GameEnded();
                                 Luna.Unity.Playable.InstallFullGame();
