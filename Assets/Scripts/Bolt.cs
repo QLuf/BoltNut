@@ -8,7 +8,7 @@ public class Bolt : MonoBehaviour
     [SerializeField] public bool isFallingScrew = true;
     public bool screwBoard = false;
 
-    public GameObject hand1, hand1portrait, hand2, handlandscape, tutorial2;
+    public GameObject hand1, hand1portrait, hand2, handlandscape, tutorial2, vfx1, vfx2;
     //[SerializeField] Transform graphicTF;
     //[SerializeField] Transform meshTF;
     //[SerializeField] GameObject lockObj;
@@ -59,6 +59,12 @@ public class Bolt : MonoBehaviour
         isScrewed = true;
         Vibration.Vibrate(50);
         hand1.SetActive(false);
+        if (vfx1 && vfx2)
+        {
+            vfx1?.SetActive(false);
+            vfx2?.SetActive(false);
+        }
+        
         if (!this.isFallingScrew)
         {
             hand2.SetActive(true);
@@ -88,6 +94,11 @@ public class Bolt : MonoBehaviour
         Vibration.Vibrate(50);
         //meshRenderer.sortingOrder = 0;
         hand2.SetActive(false);
+        if (vfx1 && vfx2)
+        {
+            vfx1?.SetActive(false);
+            vfx2?.SetActive(false);
+        }
         tutorial2.SetActive(false);
         oldspr.enabled = true;
         newspr.enabled = false;
